@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyShots</string>
+    <string name="new_event">New event</string>
+    <string name="share_details">Share details</string>
+    <string name="make_changes">Make changes</string>
+    <string name="name">Name</string>
+    <string name="time">time</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/uploadNew"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_file_upload"
+        android:title="@string/new_event"/>
+    <item
+        android:id="@+id/shareEvent"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_details"/>
+
+</menu>

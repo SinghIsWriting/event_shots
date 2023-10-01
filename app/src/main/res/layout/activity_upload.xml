@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EDEAEA"
+    android:orientation="vertical"
+    android:id="@+id/mainPage"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/tvTotalEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:text="Total events: " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/roll"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:ems="10"
+            android:padding="2dp"
+            android:gravity="center"
+            android:hint="Event No."
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="320dp"
+                android:layout_height="56dp"
+                android:gravity="left"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/etName"-->
+        <!--            android:layout_width="330dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:autoLink="all"-->
+        <!--            android:ems="10"-->
+        <!--            android:gravity="center"-->
+        <!--            android:hint="Name"-->
+        <!--            android:inputType="textPersonName"-->
+        <!--            android:minHeight="48dp"-->
+        <!--            android:textColor="#00BCD4"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/note"
+        android:autoLink="all"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:hint="About event"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:minHeight="48dp"
+        android:textColor="#00BCD4"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/browse"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#66B9F9"
+            android:drawableLeft="@drawable/ic_baseline_browse_gallery_24"
+            android:text="Browse gallery"
+            android:textSize="16sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="-20dp"
+            android:backgroundTint="#8BC34A"
+            android:drawableLeft="@drawable/ic_file_upload"
+            android:textSize="18sp"
+            app:cornerRadius="999dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShowall"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#FFEB3B"
+        android:shadowColor="#2AF598"
+        android:text="Show all events"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="100dp"
+        app:strokeColor="#009EFD" />
+
+
+</LinearLayout>
