@@ -27,7 +27,9 @@ Introducing the Event Gallery app, store all your special occasions! With this a
 ## Installation
 
 1. Clone or download the repository to your local machine.
-
+```
+git clone https://github.com/SinghIsWriting/event_shots.git
+```
 2. Open the project in Android Studio.
 
 3. Build and run the app on an Android emulator or physical Android device.
