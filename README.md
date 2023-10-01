@@ -3,7 +3,11 @@
 ## Overview
 Introducing the Event Gallery app, store all your special occasions! With this app, you can effortlessly store your events by adding pictures. Whether it's a birthday celebration, a family reunion, or a memorable trip, the Event Gallery app lets you create a beautiful visual diary of your life's most cherished moments. 
 
-![20231001_181427-COLLAGE](https://github.com/SinghIsWriting/event_shots/assets/122283853/3d266b25-c25f-43b3-bca7-bb0089055cd0)
+
+<p align="center">
+<img width="60%"src="https://github.com/SinghIsWriting/event_shots/assets/122283853/3d266b25-c25f-43b3-bca7-bb0089055cd0"/>
+</a>
+</p>
 
 
 ## Features
@@ -58,9 +62,6 @@ We welcome contributions to the development of this app. If you'd like to contri
 4. Your contribution will be reviewed, and once approved, it will be merged into the main branch.
 
 ## License
-
 This app is open-source and is available under the [MIT License](LICENSE).
-
-## Contact
 
 Thank you for using the Event Gallery Android app! We hope it helps you capture and cherish your special moments.
